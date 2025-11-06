@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "PrimeAbsensi",
+    "slug": "PrimeAbsensi",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "primeabsensi",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "android": {
+        "jsEngine": "jsc"
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.PrimeAbsensi"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": " expo",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      "expo-web-browser"
+    ],
+    "extra": {
+      "expoClientId": "481357532067-pk5lm0ebt52lh5q29vposkfe3p4g0sso.apps.googleusercontent.com"
+    }
+  }
+}
